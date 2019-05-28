@@ -1,1 +1,108 @@
 // general styles for the project that wouldn't be a reuseable component
+
+
+.page-intro {
+  position: relative;
+  padding-top: $s6;
+  padding-bottom: $s11;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    height: 100px;
+    top: -100px;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+  }
+  &__nav {
+    border-top: 1px solid rgba($grey-darkest,0.2);
+    height: 58px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+
+
+/*======= HIGHLIGHTS ========*/
+
+.highlights {
+  &__item {
+    position: relative;
+    &-crew {
+      display: block;
+      position: absolute;
+      top: -10px; right: -10px;
+      z-index: 10;
+      background-color: $white;
+      border: 2px solid $qatar;
+      border-radius: 50%;
+      height: 48px; width: 48px;
+      @include background-attributes;
+    }
+    &:before { padding-top: 420px; } // consistent height
+  }
+  // modifiers for layout with two videos
+  &--twovid {
+    .highlights__item {
+      &:before { padding-top: 360px; } // consistent height
+    }
+  }
+}
+
+
+
+
+/*======= FOOTER QATAR SECTION ========*/
+
+.qatar-section {
+  position: relative;
+  padding-bottom: $s10;
+  background-color: #ede8d4;
+
+  & .title { font-family: $font-qatar; }
+
+  &__wave {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    padding-top: 6.5%;
+    background-image: url('../img/content/qatar/waves.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  // Top banner
+  &__banner {
+    position: relative;
+    padding: $s10 0 $s12;
+    background-image: url('../img/content/qatar/bg.jpg');
+    color: $white;
+    & .title { color: $white; }
+    @include background-attributes;
+    &-wave { background-image: url('../img/content/qatar/waves-beige.svg'); }
+    &-logo {
+      display: block;
+      position: relative;
+      width: 200px;
+      padding-top: 10%;
+      background-image: url('../img/logo/partner.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-bottom: $s2;
+    }
+  }
+
+  &__fare {
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba($grey-darkest, 0.1);
+  }
+
+}

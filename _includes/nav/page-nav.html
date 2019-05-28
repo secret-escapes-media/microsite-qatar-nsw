@@ -1,11 +1,17 @@
-<!-- PAGE NAV -->
-<div class="page-nav">
-  <div class="row row--padding">
-    <ul class="page-nav__list">
+
+<div class="page-nav js-sticky-nav">
+  <div class="page-nav__scroll-wrap">
+    <div class="page-nav__wrap">
+
       {% for section in page.sections %}
-      <li class="page-nav__item"><a href="#section-{{section.id}}" class="page-nav__link">{{ section.title }}</a></li>
+      <span class="page-nav__item">
+        <a class="page-nav__link" href="#section-{{section.id}}">{{section.title}}</a>
+      </span>
       {% endfor %}
-      <li class="page-nav__item"><a href="#section-flights" class="page-nav__link">Qantas Flights</a></li>
-    </ul>
+      <span class="page-nav__item">
+        <a class="page-nav__link" href="#section-flights">Flights</a>
+      </span>
+
+    </div>
   </div>
 </div>

@@ -3,11 +3,14 @@
 .title {
 
   // custom content headline
-  font-family: $font-title-01;
-  &--xxxl   { font-size: $s8; }
-  &--xxl    { font-size: $s7; }
-  &--xl     { font-size: $s6; }
-  &--lg     { font-size: $s5; }
+  line-height: 1.2;
+  color: $grey-dark;
+  .text--white &,
+  &.text--white { color: $white; }
+  &--xxxl   { font-size: $s8; line-height: 1; }
+  &--xxl    { font-size: $s7; line-height: 1; }
+  &--xl     { font-size: $s6; line-height: 1; }
+  &--lg     { font-size: $s5; line-height: 1; }
   &--md     { font-size: $s4; }
   &--sm     { font-size: $s3; }
   &--xs     { font-size: $s2; }
@@ -24,6 +27,10 @@
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
   }
+  &--display {
+    font-family: $font-title-01;
+    letter-spacing: -0.02em;
+  }
 
 }
 
@@ -32,6 +39,9 @@
   // custom content headline
   font-family: $font-title-01;
   font-size: $s2; // default size
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
   &--lg     { font-size: $s4; }
   &--sm     { font-size: $s0; }
   @include bp($lg){
@@ -78,9 +88,12 @@
 
   // custom banner headline
   font-family: $font-title-01;
-  text-transform: uppercase;
   font-size: $s5;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
   @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s10; }
+  @include bp($lg){ font-size: $s8; }
+  @include bp($xl){ font-size: $s9; }
 
 }

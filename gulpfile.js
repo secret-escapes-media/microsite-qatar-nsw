@@ -27,7 +27,7 @@ function browserSyncServe() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/template': '_site/'
+        '/qatar-new-south-wales': '_site/'
       }
     }
   });
@@ -87,8 +87,7 @@ function buildJsMain(cb) {
     './_assets/js/_components/standard.js',
     './_assets/js/_components/offer-countdown.js',
     './_assets/js/_components/modal.js',
-    './_assets/js/_components/modal-nav.js',
-    // './_assets/js/_components/sticky-nav.js',
+    './_assets/js/_components/sticky-nav.js',
 
     // custom js for project
     './_assets/js/main.js',

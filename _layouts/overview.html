@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+
+<!-- PAGE INTRO -->
+<div class="bg--white page-intro">
+  <div class="container container--xxxl text--center">
+    {{page.intro}}
+  </div>
+  <div class="page-intro__nav">
+    {% include nav/page-nav.html %}
+  </div>
+</div>
+
+
+<!-- PAGE SECTIONS -->
+<div class="bg--grey-lightest">
+  {% for section in page.sections %}
+    <div class="wp" id="section-{{section.id}}"></div>
+
+    <div class="vpad--xxxl bg--img-fixed" style="background-image: url('{{site.img}}/content/{{section.id}}/bg.jpg');">
+
+      <div class="container">
+
+        <!-- Intro -->
+        <div class="row row--valign-center">
+
+          <div class="col col--9">
+            <h2 class="title title--display title--xxxl text--bold">{{section.title}}</h2>
+            <div class="space--xxs"></div>
+            {{section.description}}
+          </div>
+
+        </div>
+
+        <!-- HIGHLIGHTS -->
+        <div class="vpad--xl">
+          {% assign videoCount = section.videos | size %}
+          {% assign videos = site.data.modal.video %}
+          {% assign highlights = site.data.highlights %}
+
+          <div class="row highlights{% if videoCount > 1 %} highlights--twovid{% endif %}">
+
+            <!-- VIDEOS -->
+            {% for pageVideo in section.videos %}
+              {% assign videoData = videos | where: 'id', pageVideo.id %}
+              {% for item in videoData %}
+
+              {% if videoCount > 1 %}
+                <div class="col col--6">
+              {% else %}
+                <div class="col col--8">
+              {% endif %}
+
+                  <div class="highlights__item bg-img bg-img--shadow bg-img--16-9" style="background-image: url('{{site.img}}/highlights/{{item.id}}.jpg');">
+                    <a href="javascript:void(0);" data-modal-item="{{item.id}}" class="bg-img__link js-open-modal"></a>
+                    <div class="bg-img__content">
+                      <div class="bg-img__play"></div>
+                    </div>
+                    <div class="bg-img__overlay"></div>
+                  </div>
+                </div>
+
+              {% endfor %}
+            {% endfor %}
+
+            <!-- HIGHLIGHTS -->
+            {% for pageHighlight in section.highlights %}
+              {% assign highlightData = highlights | where: 'id', pageHighlight.id %}
+              {% for item in highlightData %}
+
+              {% if videoCount > 1 %}
+                <div class="col col--3">
+              {% else %}
+                <div class="col col--4">
+              {% endif %}
+
+                  <div class="highlights__item bg-img bg-img--shadow bg-img--1-1" style="background-image: url('{{site.img}}/highlights/{{item.id}}.jpg');">
+                    <a href="javascript:void(0);" data-modal-item="{{item.id}}" data-modal-group="section" class="bg-img__link js-open-modal"></a>
+                    {% if item.qatar-crew %}<div class="highlights__item-crew" style="background-image: url({{site.img}}/crew.jpg);"></div>{% endif %}
+                    <div class="bg-img__content">
+                      <div class="boxpad--sm">
+                        <h4 class="title title--display title--xs text--bold">{{item.title}}</h4>
+                        {% if item.subtitle %}
+                          <div class="space--xxxs"></div>
+                          <p class="title text--upper text--bold">{{item.subtitle}}</p>
+                        {% endif %}
+                      </div>
+                    </div>
+                    <div class="bg-img__overlay"></div>
+                  </div>
+                </div>
+
+              {% endfor %}
+            {% endfor %}
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+
+{% include qatar-section.html %}

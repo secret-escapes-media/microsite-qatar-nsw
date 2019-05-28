@@ -2,9 +2,21 @@
 
 .bg {
   &--white { background-color: $white; }
-  &--light { background-color: $grey-lightest; }
-  &--dark  { background-color: $grey-dark; }
+  &--black { background-color: $black; }
+  &--grey-lightest { background-color: $grey-lightest; }
+  &--grey-lighter  { background-color: $grey-lighter; }
+  &--grey-light    { background-color: $grey-light; }
+  &--grey          { background-color: $grey; }
+  &--dark          { background-color: $grey-dark; }
+  &--darker        { background-color: $grey-darker; }
+  &--darkest       { background-color: $grey-darkest; }
   &--img   { @include background-attributes; }
+  &--img-fixed {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
   &__fixed {
     position: fixed;
     top: 0;

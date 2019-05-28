@@ -1,0 +1,20 @@
+<!-- Highlight modal -->
+<div class="container container--xl container--no-padding modal__content modal-highlight">
+  <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/highlights/{{item.id}}.jpg);"></div>
+
+  <div class="boxpad--xl bg--white text--center">
+    <h4 class="title title--sm title--display text--bold">{{item.title}}</h4>
+    <p>{{item.content}}</p>
+    {% if item.qatar-crew %}
+    <div class="modal__local">
+      <div class="modal__local-title">
+        <span class="title text--upper text--wide-kern text--bold">Tips from the crew</span>
+      </div>
+      <div class="boxpad--lg">
+        <p>{{item.qatar-crew}}</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+</div>
