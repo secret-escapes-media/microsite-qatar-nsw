@@ -1,15 +1,51 @@
 
 
 
-# Urban Adventure
+
+# Sydney
 
 - type: highlight
-  title: Handa Opera on Sydney Harbour
-  subtitle: 22 March – 21 April 2019
-  id: handa-opera-on-sydney-harbour
-  content: Head to Sydney harbour for glorious views across the bay, as the sun slowly sinks behind the city. Start your evening with a glass of fizz before heading to a pop-up waterside restaurant for starlight dining. This year, they’re breaking from tradition and staging the award-winning West Side Story on the floating stage in the harbour. Don’t miss this extravagant spectacular!
-  qatar-crew: Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
-  section: urban-adventure
+  title: The Rocks
+  id: the-rocks
+  content: Sydney’s, if not the country’s, first established neighbourhood is an enticing mix of heritage architecture and old-school pubs and eateries. Over by the water, the dining scene is one of the best in the country, best rounded off with a brew in a convict-era pub. In the daytime, markets and indie shops cater for foodies and boutique shoppers alike.
+  section: sydney
+  pages:
+    - id: overview
+
+- type: highlight
+  title: Sydney neighbourhoods
+  id: sydney-neighbourhoods
+  content: 
+  section: sydney
+  pages:
+    - id: overview
+
+- type: highlight
+  title: Royal Botanic Garden
+  id: royal-botanic-garden
+  content: In the heart of Sydney harbour lies an enchanting green space, an oasis right next to the urban buzz of downtown. It’s a perfect getaway for a picnic, or a sunset wine, with views across the harbour that are second-to-none. Explore the beautiful flowers and plant life that make the gardens burst with colour, and take a tour to learn of the Aboriginal and first-settler heritage of the area.
+  section: sydney
+  pages:
+    - id: overview
+
+- type: highlight
+  title: Sydney Opera House
+  id: sydney-opera-house
+  content: Sydney’s iconic Opera House is an architectural wonder, a dazzlingly white collection of sails that stretch out into the bay. Guided tours reveal the impressive interior, where five performance spaces and the world’s largest grand organ make for a fascinating sight. It is a given, however, that the best way to experience this Sydney treasure is to book a show.
+  section: sydney
+  pages:
+    - id: overview
+
+
+
+# Events
+
+- type: highlight
+  title: T20 World Cup
+  subtitle: 18 October – 15 November 2020
+  id: t20-world-cup
+  content:
+  section: sydney
   pages:
     - id: overview
 
@@ -18,7 +54,7 @@
   subtitle: May/June 2019 – dates to be announced
   id: vivid-sydney
   content: This technicolour festival sets the city alight, making for a truly awe-inspiring sight. Immersive light displays cover the city in glorious artworks, with the streets coming alive to the sound of musicians from across the world. Vivid Ideas furthers the offerings, with public talks and innovative ideas from global thinkers and creators. A truly diverse and spellbinding event!
-  section: urban-adventure
+  section: sydney
   pages:
     - id: overview
 
@@ -27,7 +63,7 @@
   subtitle: 15 February – 3 March 2019
   id: sydney-gay-lesbian-mardi-gras
   content: This LGTBQ+ extravaganza is easily the most fabulous party Sydney offers. Culminating in the effortlessly-sequinned parade down Oxford Street, the day sees Sydney’s many parks and bars alight in technicolor glamour. It’s an addictive, revelrous celebration of the gay, lesbian and wider LBGTQ+ community that offers so much to this great city and the wider country. Plus, it’s the biggest of its kind anywhere in the world, so share in this joyful celebration.
-  section: urban-adventure
+  section: sydney
   pages:
     - id: overview
 
@@ -35,8 +71,8 @@
   title: New Years Eve
   subtitle:
   id: new-years-eve
-  content: Head for one of the first places in the world to see in the new year. Sydney is famed for its celebrations, where the harbour ignites in a flash of colour and excitement. Watch a dazzling display of fireworks, showering the harbour in light, erupting from and behind icons like the Opera House and Harbour Bridge. The festivities continue into the next day, with a host of parties to head for across the city.  
-  section: urban-adventure
+  content: Head for one of the first places in the world to see in the new year. Sydney is famed for its celebrations, where the harbour ignites in a flash of colour and excitement. Watch a dazzling display of fireworks, showering the harbour in light, erupting from and behind icons like the Opera House and Harbour Bridge. The festivities continue into the next day, with a host of parties to head for across the city.
+  section: sydney
   pages:
     - id: overview
 
@@ -48,23 +84,24 @@
   title: Hunter Valley
   id: hunter-valley
   content: This classic New South Wales wine region offers sprawling vineyards set in gorgeous countryside, each cultivating fine tipples steeped in heritage. The oldest wine-producing region in Australia, the Hunter Valley is best known for its award-winning sémillon and shiraz. Alight for cellar-door tastings, boutique beer trails, fine restaurants and exquisite artisan chocolate.
-  section: foodie-delights
+  qatar-crew: Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
+  section: food
   pages:
     - id: overview
 
 - type: highlight
-  title: Byron Bay
-  id: byron-bay-food
-  content: This famous beach spot has come to typify the boho, laid-back style of Aussie’s beachside escapes. A long-time draw for beach bums the world over, Byron Bay has emerged as a temple of foodie hotspots to complement its stunning coastline. The villages that surround the immediate town offer some truly creative foodie experiences. Don’t miss them.
-  section: foodie-delights
+  title: Southern Highlands
+  id: southern-highlands
+  content: South of Sydney lie the Highlands, a small pocket of foodie delights and lush countryside and a hotspot for cellar-door tastings. Your base should be Bowral, where esteemed restaurants – notably Biota Dining – set you up for days exploring the region. Best seen by car, there are 63 vineyards and 17 cellar doors to discover, dispersed amongst rolling countryside and rainforest patches.
+  section: food
   pages:
     - id: overview
 
 - type: highlight
-  title: Mudgee
-  id: mudgee
-  content: Mudgee is the in-the-know food and wine region that more and more switched-on travellers are heading for. Its historic obscurity has helped the town to retain an authentic identity, making it a relaxed spot where locals produce fine fare for your delectation. Stop in chic restaurants with seriously good food, before exploring the rolling vineyards that surround the town.
-  section: foodie-delights
+  title: Riverina
+  id: riverina
+  content: This fertile region is NSW’s most productive, with a diverse range of produce grown here. That’s a good sign for discerning foodies, and Riverina doesn’t fail to deliver. Vineyards are dotted across the area, but Riverina’s Italian heritage is what sets it the most apart. Head for Griffith to discover this, or make for Junee to see its rather unique architecture, without skipping Wagga Wagga’s myriad attractions.
+  section: food
   pages:
     - id: overview
 
@@ -72,7 +109,8 @@
   title: Orange
   id: orange
   content: Orange has established itself as an enviable food and wine hotspot, where volcanic soils offer all manner of rich harvests. Acclaimed restaurants have been opening all across town, taking advantage of the flow of in-the-know foodies coming to sample the local wine. Alight at F.O.O.D Week or Winefest for a great introduction to all things Orange foodie.
-  section: foodie-delights
+  qatar-crew: Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
+  section: food
   pages:
     - id: overview
 
@@ -81,18 +119,18 @@
 # The Water’s Edge
 
 - type: highlight
-  title: Jervis Bay
-  id: jervis-bay
-  content: This resplendent bay shelters some of the most gorgeous beaches in Australia. Powder white sand, acclaimed as the whitest in the world, slinks into crystal-clear waters that create an irresistible draw for visitors. The neighbouring marine parks teem with life, home to dolphins, fur seals, little penguins and migrating whales.
-  section: the-waters-edge
+  title: Bondi & Manly
+  id: bondi-manly
+  content: If you’re itching to hit the beaches whilst you’re in Sydney, you won’t need to travel far. Bondi is possibly the most iconic in the country and just 8km from downtown. The surfing here is exquisite and the crescent sands lengthy; though it’s always guaranteed to be busy. Manly, on the other hand, is a little further from town and the beach is longer – fringed by Norfolk Island pines and every bit as pretty as Bondi.
+  section: coast
   pages:
     - id: overview
 
 - type: highlight
-  title: Port Macquarie
-  id: port-macquarie
-  content: Ancient forests cover the land before retreating from the pristine ocean at Port Macquarie. Nature trails through the area’s parks offer glorious immersion into the local flora and fauna, before cooling off on pristine beaches where watersports only further the offerings in this beautiful area. Food and wine is found in abundance, with gourmet feasting set to recharge you after a long day enjoying this beautiful spot.
-  section: the-waters-edge
+  title: Port Stephens
+  id: port-stephens
+  content: Horse ride down white-sand beaches, swim with dolphins, or seek out tree-hugging koalas. Port Stephens is a stunning spot that teems with a variety of unmissable wildlife. Just off the coast unique opportunities are available to dive with the playful dolphins. Don’t miss the Worimi Conservation Lands, where sand dunes dip and rise for miles around before falling into the sea.
+  section: coast
   pages:
     - id: overview
 
@@ -100,7 +138,7 @@
   title: Coffs Harbour
   id: coffs-harbour
   content: This stunning harbour shelters glorious beaches with waters that offer sanctuary to whales, turtles and dolphins. Go for a surf, kick-back on the sand, or explore the wider region where you’ll find a World Heritage rainforest perfect for dizzying canopy walks, canoe trails up Bellingen river and a host of music festivals set in stunning surroundings.
-  section: the-waters-edge
+  section: coast
   pages:
     - id: overview
 
@@ -108,7 +146,7 @@
   title: Byron Bay
   id: byron-bay
   content: Probably the most popular of New South Wales’ beach escapes, Byron Bay epitomises the hippy, bohemian atmosphere that Oz’s beach paradises do so well. Glorious beaches are littered with surfers, people practicing yoga and reiki, and beach bums who know how to soak up the sun. Head to town for great eateries and bars, before walking the coast to catch unforgettable sunsets.
-  section: the-waters-edge
+  section: coast
   pages:
     - id: overview
 
@@ -119,7 +157,7 @@
   title: Lord Howe Island
   id: lord-howe-island
   content: This volcanic island is home to a startling array of wildlife, a veritable paradise for nature lovers just off the coast of the mainland. It’s World Heritage status has preserved this Pacific idyll, where hiking trails criss-cross the island and where fish eat out of your palm on Ned’s Beach. Spot the colourful array of bird life before snorkelling above the technicolour coral reefs.
-  section: for-nature-lovers
+  section: nature
   pages:
     - id: overview
 
@@ -127,59 +165,24 @@
   title: Blue Mountains
   id: blue-mountains
   content: These towering, verdant peaks are a true natural wonder, where a vast canopy of eucalypts emit an oily haze to which the mountains owe their name. Bushwalk through the tropical World Heritage marvel, passing vast sandstone crags and abundant wildlife. Take to the skies with the glass-floored cable car that crosses the vast gorge before immersing yourself in this natural wonderland.
-  section: for-nature-lovers
+  section: nature
   pages:
     - id: overview
 
 - type: highlight
-  title: Port Stephens
-  id: port-stephens
-  content: Horse ride down white-sand beaches, swim with dolphins, or seek out tree-hugging koalas. Port Stephens is a stunning spot that teems with a variety of unmissable wildlife. Just off the coast unique opportunities are available to dive with the playful dolphins. Don’t miss the Worimi Conservation Lands, where sand dunes dip and rise for miles around before falling into the sea.
-  section: for-nature-lovers
+  title: Jervis Bay
+  id: jervis-bay
+  content: This resplendent bay shelters some of the most gorgeous beaches in Australia. Powder white sand, acclaimed as the whitest in the world, slinks into crystal-clear waters that create an irresistible draw for visitors. The neighbouring marine parks teem with life, home to dolphins, fur seals, little penguins and migrating whales.
+  section: nature
   pages:
     - id: overview
 
 - type: highlight
-  title: Mungo National Park
-  id: mungo-national-park
-  content: Part of the New South Wales outback, Mungo National Park is at odds with the verdant, tropical landscapes closer to the coast. Here, vast clay crags pierce desert scapes, offering a remarkable juxtaposition to the beachside forests. Head for the Walls of China boardwalk and let the martian monoliths tower over you.
-  section: for-nature-lovers
+  title: Gondwana Rainforests
+  id: gondwana-rainforests
+  content: A collection of national parks and vast forests cluster at the northern end of the region, to form the NSW part of the Gondwana Rainforests; a moniker to describe the UNESCO protected forests along the central eastern coastline. Incredible trails, beautiful waterfalls, rainforest riverways and more await at Dorrigo National Park, Werrikimbe, and Barrington Tops, all within easy reach of major towns.
+  section: nature
   pages:
     - id: overview
 
-
-
-# Cultural Pursuits
-
-- type: highlight
-  title: Aboriginal Art Galleries
-  id: aboriginal-art-galleries
-  content: Dotted across the New South Wales landscape are a host of galleries that shelter fine Aboriginal art. The joyous riot of colour that these paintings employ to describe abstractions of the natural world are a magnificent glimpse at Aboriginal culture. Find these artworks at the Wollongong Art Gallery, Lake Macquarie City Art Gallery and Moree Plains Gallery and discover fine curations.
-  section: cultural-pursuits
-  pages:
-    - id: overview
-
-- type: highlight
-  title: Blue Mountains Cultural Trail
-  id: blue-mountains-cultural-trail
-  content: Already a proven starlet for outdoor lovers, the Blue Mountains also hide a remarkable cultural significance. Let an Aboriginal guide take you through this striking landscape, highlighting the spiritual connection between the community and the enchanting mountains. Finish your tour with a visit to the Blue Mountains Cultural Centre, showcasing the culture of the region with a curation of local artwork.
-  section: cultural-pursuits
-  pages:
-    - id: overview
-
-- type: highlight
-  title: Sydney Art Trail
-  id: sydney-art-trail
-  content: Sydney is a bustling hub for Australia’s creatives, where sculptures line the sidewalks and indie galleries offer a network of cutting-edge art to explore. The stalwart hubs, that is the Art Gallery of New South Wales and the Museum of Contemporary Art, are a great springboard into the myriad of galleries to be found in the city. Try Artspace, Casula Gallery, White Rabbit and plenty more.
-  section: cultural-pursuits
-  pages:
-    - id: overview
-
-- type: highlight
-  title: NSW Outback Aboriginal Heritage
-  id: nsw-outback
-  content: Head to the wild outback of New South Wales, an arid, dramatic landscape where deserts lap vast clay monoliths. Discover enchanting rock art, preserved for millennia, before joining a tour through beguiling landscape of the Mungo National Park. Here you’ll meet the Mungo Man and Mungo Woman, the world’s oldest cremations that show evidence of a ritualistic burial.
-  section: cultural-pursuits
-  pages:
-    - id: overview
 

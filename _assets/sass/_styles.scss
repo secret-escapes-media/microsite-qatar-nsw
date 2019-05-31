@@ -28,11 +28,31 @@
 
 
 
-/*======= HIGHLIGHTS ========*/
+/*======= PAGE GUIDE SECTION ========*/
+
+.page-section {
+  padding-top: $s8;
+  padding-bottom: $s8;
+  @include background-attributes;
+  background-attachment: fixed;
+}
+
+
+
+/* HIGHLIGHTS */
 
 .highlights {
   &__item {
+    display: block;
     position: relative;
+    @include background-attributes();
+    @include transition;
+    box-shadow: 0 2px 8px 2px rgba($black,0.1);
+    transform: scale(1);
+    &:hover {
+      box-shadow: 0 4px 16px 4px rgba($black,0.3);
+      transform: scale(1.05);
+    }
     &-crew {
       display: block;
       position: absolute;
@@ -41,15 +61,26 @@
       background-color: $white;
       border: 2px solid $qatar;
       border-radius: 50%;
-      height: 48px; width: 48px;
+      height: 60px; width: 60px;
       @include background-attributes;
     }
-    &:before { padding-top: 420px; } // consistent height
+
+    // FIXED HEIGHT FOR ALL ITEMS REGARDLESS OF WIDTH
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      padding-top: 280px; // consistent height
+      @include bp($lg){ padding-top: 360px; }
+    }
   }
-  // modifiers for layout with two videos
-  &--twovid {
+  // changes height of items for 3 column layout
+  &--3-col {
     .highlights__item {
-      &:before { padding-top: 360px; } // consistent height
+      &:before {
+        padding-top: 280px; // consistent height
+        @include bp($lg){ padding-top: 420px; }
+      }
     }
   }
 }

@@ -41,13 +41,13 @@
 
   &__play {
     @include transition;
-    width: 160px; height: 160px;
+    width: 120px; height: 120px;
     display: inline-block;
     transform: scale(1);
     background-image: url('../img/icons/play.svg');
     background-position: center;
     background-size: contain;
-    &-sm { width: 120px; height: 120px; }
+    &-sm { width: 80px; height: 80px; }
   }
   &:hover &__play { transform: scale(1.025); }
 
