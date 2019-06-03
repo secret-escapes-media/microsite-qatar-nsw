@@ -15,7 +15,7 @@
 - type: highlight
   title: Sydney neighbourhoods
   id: sydney-neighbourhoods
-  content: 
+  content:
   section: sydney
   pages:
     - id: overview
@@ -84,7 +84,6 @@
   title: Hunter Valley
   id: hunter-valley
   content: This classic New South Wales wine region offers sprawling vineyards set in gorgeous countryside, each cultivating fine tipples steeped in heritage. The oldest wine-producing region in Australia, the Hunter Valley is best known for its award-winning sémillon and shiraz. Alight for cellar-door tastings, boutique beer trails, fine restaurants and exquisite artisan chocolate.
-  qatar-crew: Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
   section: food
   pages:
     - id: overview
@@ -109,7 +108,6 @@
   title: Orange
   id: orange
   content: Orange has established itself as an enviable food and wine hotspot, where volcanic soils offer all manner of rich harvests. Acclaimed restaurants have been opening all across town, taking advantage of the flow of in-the-know foodies coming to sample the local wine. Alight at F.O.O.D Week or Winefest for a great introduction to all things Orange foodie.
-  qatar-crew: Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
   section: food
   pages:
     - id: overview
