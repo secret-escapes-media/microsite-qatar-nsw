@@ -15,7 +15,7 @@
 - type: highlight
   title: Sydney neighbourhoods
   id: sydney-neighbourhoods
-  content:
+  content: Sydney is a sum of its parts, and its outlying neighbourhoods are the best place to experience the city like a local. Surry Hills is renowned for its on-trend dining scene and old-school pubs, whilst Newtown is its hipper cousin with microbreweries and diverse eateries. Darlinghurst is awash with galleries and art trails and Chippendale complete with trendy brunch spots and talked-about restaurants. Don’t miss these buzzing local hangouts.
   section: sydney
   pages:
     - id: overview
@@ -44,14 +44,14 @@
   title: T20 World Cup
   subtitle: 18 October – 15 November 2020
   id: t20-world-cup
-  content:
+  content: Catch the action in Sydney, at the T20 World Cup. Hosted at the SCG Ground, follow the fast-paced game in a stadium packed with heritage. Who will take home the cup? You’ll have to book your tickets to find out!
   section: sydney
   pages:
     - id: overview
 
 - type: highlight
   title: Vivid Sydney
-  subtitle: May/June 2019 – dates to be announced
+  subtitle: 24 May – 15 June 2019
   id: vivid-sydney
   content: This technicolour festival sets the city alight, making for a truly awe-inspiring sight. Immersive light displays cover the city in glorious artworks, with the streets coming alive to the sound of musicians from across the world. Vivid Ideas furthers the offerings, with public talks and innovative ideas from global thinkers and creators. A truly diverse and spellbinding event!
   section: sydney
@@ -60,18 +60,18 @@
 
 - type: highlight
   title: Sydney Gay & Lesbian Mardi Gras
-  subtitle: 15 February – 3 March 2019
+  subtitle: 29 February 2020
   id: sydney-gay-lesbian-mardi-gras
-  content: This LGTBQ+ extravaganza is easily the most fabulous party Sydney offers. Culminating in the effortlessly-sequinned parade down Oxford Street, the day sees Sydney’s many parks and bars alight in technicolor glamour. It’s an addictive, revelrous celebration of the gay, lesbian and wider LBGTQ+ community that offers so much to this great city and the wider country. Plus, it’s the biggest of its kind anywhere in the world, so share in this joyful celebration.
+  content: This LGBTQ+ extravaganza is easily the most fabulous party Sydney offers. Culminating in the effortlessly-sequinned parade down Oxford Street, the day sees Sydney’s many parks and bars alight in technicolor glamour. It’s an addictive, revelrous celebration of the gay, lesbian and wider LGBTQ+ community that offers so much to this great city and the wider country. Plus, it’s the biggest of its kind anywhere in the world, so share in this joyful celebration.
   section: sydney
   pages:
     - id: overview
 
 - type: highlight
-  title: New Years Eve
+  title: New Year's Eve
   subtitle:
   id: new-years-eve
-  content: Head for one of the first places in the world to see in the new year. Sydney is famed for its celebrations, where the harbour ignites in a flash of colour and excitement. Watch a dazzling display of fireworks, showering the harbour in light, erupting from and behind icons like the Opera House and Harbour Bridge. The festivities continue into the next day, with a host of parties to head for across the city.
+  content: Head for one of the first places in the world to see in the new year. Sydney is famed for its celebrations, where the harbour ignites in a flash of colour and excitement. Watch a dazzling display of fireworks, showering the harbour in light, erupting from and behind icons like the Sydney Opera House and Sydney Harbour Bridge. The festivities continue into the next day, with a host of parties to head for across the city.
   section: sydney
   pages:
     - id: overview
@@ -91,7 +91,7 @@
 - type: highlight
   title: Southern Highlands
   id: southern-highlands
-  content: South of Sydney lie the Highlands, a small pocket of foodie delights and lush countryside and a hotspot for cellar-door tastings. Your base should be Bowral, where esteemed restaurants – notably Biota Dining – set you up for days exploring the region. Best seen by car, there are 63 vineyards and 17 cellar doors to discover, dispersed amongst rolling countryside and rainforest patches.
+  content: South of Sydney lie the Southern Highlands, a small pocket of foodie delights and lush countryside and a hotspot for cellar-door tastings. Your base should be Bowral, where esteemed restaurants – notably Biota Dining – set you up for days exploring the region. Best seen by car, there are 63 vineyards and 17 cellar doors to discover, dispersed amongst rolling countryside and rainforest patches.
   section: food
   pages:
     - id: overview
@@ -99,7 +99,7 @@
 - type: highlight
   title: Riverina
   id: riverina
-  content: This fertile region is NSW’s most productive, with a diverse range of produce grown here. That’s a good sign for discerning foodies, and Riverina doesn’t fail to deliver. Vineyards are dotted across the area, but Riverina’s Italian heritage is what sets it the most apart. Head for Griffith to discover this, or make for Junee to see its rather unique architecture, without skipping Wagga Wagga’s myriad attractions.
+  content: This fertile region is NSW’s most productive, with a diverse range of produce grown here. That’s a good sign for discerning foodies, and the Riverina doesn’t fail to deliver. Vineyards are dotted across the area, but the Riverina’s Italian heritage is what sets it the most apart. Head for Griffith to discover this, or make for Junee to see its rather unique architecture, without skipping Wagga Wagga’s myriad attractions.
   section: food
   pages:
     - id: overview
@@ -162,7 +162,7 @@
 - type: highlight
   title: Blue Mountains
   id: blue-mountains
-  content: These towering, verdant peaks are a true natural wonder, where a vast canopy of eucalypts emit an oily haze to which the mountains owe their name. Bushwalk through the tropical World Heritage marvel, passing vast sandstone crags and abundant wildlife. Take to the skies with the glass-floored cable car that crosses the vast gorge before immersing yourself in this natural wonderland.
+  content: These towering, verdant peaks are a true natural wonder, where a vast canopy of eucalypts emit an oily haze to which the mountains owe their name. Bushwalk through the tropical World Heritage marvel, passing vast sandstone crags and abundant wildlife. Take to the skies with the glass-floored cable car that crosses the vast gorge at Scenic World before immersing yourself in this natural wonderland.
   section: nature
   pages:
     - id: overview

@@ -101,6 +101,11 @@ $nav-color:          $white;
       padding-left: $s0;
       padding-right: $s0;
     }
+    // book now link
+    &--book {
+      background-color: $qatar; color: $white;
+      .no-touch &:hover { background-color: darken($qatar,5); }
+    }
   }
 
   // js-sticky-nav style

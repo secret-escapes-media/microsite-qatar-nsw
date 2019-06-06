@@ -5,7 +5,11 @@
     <div class="boxpad--lg">
       <div class="bg-img__play"></div>
       <div class="space--sm"></div>
-      <div class="title title--xs text--bold">{{item.title}}</div>
+      <div class="title title--md text--bold">{{item.title}}</div>
+      {% if item.subtitle %}
+        <div class="space--xs"></div>
+        <div class="title text--bold text--wide-kern text--upper">{{item.subtitle}}</div>
+      {% endif %}
     </div>
   </div>
   <div class="bg-img__overlay"></div>
