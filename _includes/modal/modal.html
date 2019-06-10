@@ -21,7 +21,7 @@
               {% if item.page %}data-group-page="{{item.page}}"{% endif %}
               {% if item.section %}data-group-section="{{item.section}}"{% endif %}>
               <div class="modal__content">
-                {% if item.type == 'highlight' %}``
+                {% if item.type == 'highlight' %}
                   {% include modal/content/highlight.html %}
                 {% elsif item.type == 'expert' %}
                   {% include modal/content/expert.html %}

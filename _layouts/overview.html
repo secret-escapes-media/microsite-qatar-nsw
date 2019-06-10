@@ -65,11 +65,12 @@ layout: default
               {% assign highlightData = highlights | where: 'id', pageHighlight.id %}
               {% for item in highlightData %}
 
-                {% if videoCount > 1 %}
-                <div class="col col--12 col--lg-6 col--xxl-3">
-                {% else %}
-                <div class="col col--12 col--lg-6 col--xxl-4">
-                {% endif %}
+
+                <div
+                  class="col col--12 col--lg-6
+                  {% if videoCount > 1 %} col--xxl-3
+                  {% else %} col--xxl-4
+                  {% endif %}">
                   {% include cards/highlight.html %}
                 </div>
 

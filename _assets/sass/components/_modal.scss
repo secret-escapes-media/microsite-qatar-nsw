@@ -91,6 +91,12 @@ $modaltransition-distance: 4em;
   &__content {
     width: 100%;
     max-height: 100%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    @include bp($lg){
+      margin-top: auto;
+      margin-bottom: auto;
+    }
   }
 
   &__close {

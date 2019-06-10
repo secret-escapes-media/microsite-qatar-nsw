@@ -6,7 +6,6 @@
   subtitle: Kirribilli, Sydney
   id: kirribilli-markets-video
   youtube-id: WQhGftS8ptQ
-  section: sydney
   pages:
     - id: overview
 
@@ -15,7 +14,6 @@
   subtitle: Sydney
   id: vivid-festival-video
   youtube-id: WQhGftS8ptQ
-  section: sydney
   pages:
     - id: overview
 
@@ -26,7 +24,6 @@
   subtitle: South Coast
   id: jervis-bay-video
   youtube-id: R4we-UcYK6s
-  section: coast
   pages:
     - id: overview
 
@@ -35,7 +32,6 @@
   subtitle: Murramarang National Park
   id: pebbly-beach-video
   youtube-id: WQhGftS8ptQ
-  section: coast
   pages:
     - id: overview
 
@@ -46,7 +42,6 @@
   subtitle: Central Coast
   id: bouddi-national-park-video
   youtube-id: WT7086gEEg8
-  section: nature
   pages:
     - id: overview
 
@@ -55,7 +50,6 @@
   subtitle: West of Sydney
   id: blue-mountains-video
   youtube-id: WQhGftS8ptQ
-  section: nature
   pages:
     - id: overview
 
@@ -66,7 +60,6 @@
   subtitle: Central Coast
   id: patonga-video
   youtube-id: SxHd_J9k0Wk
-  section: food
   pages:
     - id: overview
 
@@ -75,7 +68,6 @@
   subtitle: New South Wales
   id: terrigal-video
   youtube-id: 9POZ5_OGRZ0
-  section: food
   pages:
     - id: overview
 

@@ -104,19 +104,34 @@
     padding: $s10 0 $s12;
     background-image: url('../img/content/qatar/bg.jpg');
     color: $white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    @include bp($xxl){
+      @include background-attributes;
+    }
+    & * { z-index: 1; }
+
     & .title { color: $white; }
-    @include background-attributes;
     &-wave { background-image: url('../img/content/qatar/waves-beige.svg'); }
     &-logo {
       display: block;
       position: relative;
       width: 200px;
-      padding-top: 10%;
+      padding-top: 11.5%;
       background-image: url('../img/logo/qatar.svg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
       margin-bottom: $s2;
+    }
+    &-bg {
+      display: block;
+      z-index: 0;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba($grey-darkest,0.5);
+      @include bp($xxl){ display: none; }
     }
   }
 

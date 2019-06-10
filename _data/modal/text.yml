@@ -1,9 +1,11 @@
 
 
 - type: text
-  id: text-modal
-  title: Text Modal
-  content: Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus..
+  id: terms
+  title: Terms and Conditions
+  content: >
+    <p>Pricing correct as of 7 June 2019. Prices are in GBP and are a return Economy Class fare.</p>
+    <p>Tickets must be issued on before 30 June 2019. Valid for travel commencing on or before 31 March 2020. Week day fares. Permitted 07 February through 03 April or 09 April through 27 June or 01 November through 05 December on the first international sector.</p>
   pages:
     - id: overview
 
