@@ -1,19 +1,19 @@
 
 
 
-- type: video
-  title: Kirribilli Markets
-  subtitle: Kirribilli, Sydney
-  id: kirribilli-markets-video
-  youtube-id: WQhGftS8ptQ
-  pages:
-    - id: overview
+# - type: video
+#   title: Kirribilli Markets
+#   subtitle: Kirribilli, Sydney
+#   id: kirribilli-markets-video
+#   youtube-id: WQhGftS8ptQ
+#   pages:
+#     - id: overview
 
 - type: video
   title: Vivid Sydney
   subtitle: Sydney
   id: vivid-festival-video
-  youtube-id: WQhGftS8ptQ
+  youtube-id: zYyRELY8ewk
   pages:
     - id: overview
 
@@ -45,13 +45,13 @@
   pages:
     - id: overview
 
-- type: video
-  title: Blue Mountains
-  subtitle: West of Sydney
-  id: blue-mountains-video
-  youtube-id: WQhGftS8ptQ
-  pages:
-    - id: overview
+# - type: video
+#   title: Blue Mountains
+#   subtitle: West of Sydney
+#   id: blue-mountains-video
+#   youtube-id: WQhGftS8ptQ
+#   pages:
+#     - id: overview
 
 
 
