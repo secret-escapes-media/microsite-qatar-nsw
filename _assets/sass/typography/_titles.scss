@@ -59,6 +59,7 @@
   font-family: $font-core;
   font-weight: 300;
   letter-spacing: -.02em;
+  &--serif { font-family: $font-core-serif; }
 
   &--xxxl   { font-size: $s8; line-height: 1.1; }
   &--xxl    { font-size: $s7; line-height: 1.1; }

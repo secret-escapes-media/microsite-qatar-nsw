@@ -30,51 +30,48 @@
   </div>
 
   <!-- Content -->
-  <div class="vpad--xxl">
-    <div class="container">
-      {% for feature in flights.features %}
-      <div class="bob{% cycle '', ' bob--swap'%}">
-        <div class="bob__img">
-          <div class="bg-img bg-img--3-2" style="background-image: url({{site.img}}/content/qatar/{{feature.id}}.jpg);">
-            <a class="bg-img__link" target="_blank" href="{{feature.link}}" id="tracking-image-{{feature.id}}"></a>
-          </div>
+  <div class="space--xxl"></div>
+  <div class="container">
+    {% for feature in flights.features %}
+    <div class="bob{% cycle '', ' bob--swap'%}">
+      <div class="bob__img">
+        <div class="bg-img bg-img--3-2" style="background-image: url({{site.img}}/content/qatar/{{feature.id}}.jpg);">
+          <a class="bg-img__link" target="_blank" href="{{feature.link}}" id="tracking-image-{{feature.id}}"></a>
         </div>
-        <div class="bob__text">
-          <h4 class="title title--sm title--bold">{{feature.title}}</h4>
-          <p>{{feature.content}}</p>
-          <div class="space--sm"></div>
-          <a href="{{feature.link}}" target="_blank" class="btn btn--qatar btn--sm" id="tracking-button-{{feature.id}}">Find out more</a>
+      </div>
+      <div class="bob__text">
+        <h4 class="title title--sm title--bold">{{feature.title}}</h4>
+        <p>{{feature.content}}</p>
+        <div class="space--sm"></div>
+        <a href="{{feature.link}}" target="_blank" class="btn btn--qatar btn--sm" id="tracking-button-{{feature.id}}">Find out more</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Prices -->
+  <div class="space--xxl"></div>
+  <div class="container text--center" id="section-flights--prices">
+
+    <h2 class="title title--lg">Flight options</h2>
+    <div class="space--lg"></div>
+    <div class="row row--gutters-xs">
+      {% for flight in flights.prices %}
+      <div class="col col--lg-6 col--xxl-4">
+        <div class="boxpad--xl bg--white qatar-section__fare">
+          <h4 class="title title--xxs">Fly from {{flight.from}}</h4>
+          <div>From <span class="text--bold title--xxs text--qatar">£{{flight.price}}</span> per person</div>
         </div>
       </div>
       {% endfor %}
     </div>
-
-    <!-- Prices -->
-    <div class="space--xxl"></div>
-    <div class="container text--center" id="section-flights--prices">
-
-      <h2 class="title title--lg">Flight options</h2>
-      <div class="space--lg"></div>
-      <div class="row row--gutters-xs">
-        {% for flight in flights.prices %}
-        <div class="col col--lg-6 col--xxl-4">
-          <div class="boxpad--xl bg--white qatar-section__fare">
-            <h4 class="title title--xxs">Fly from {{flight.from}}</h4>
-            <div>From <span class="text--bold title--xxs text--qatar">£{{flight.price}}</span> per person</div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-      <div class="space--xl"></div>
-      <a href="{{flights.link}}" id="tracking-button-flights-section" target="_blank" class="btn btn--qatar btn--lg">Book flights</a>
-      <div class="space--sm"></div>
-      <p><a href="javascript:void(0);" class="js-open-modal" data-modal-item="terms">Terms and conditions apply.</a></p>
-
-    </div>
+    <div class="space--xl"></div>
+    <a href="{{flights.link}}" id="tracking-button-flights-section" target="_blank" class="btn btn--qatar btn--lg">Book flights</a>
+    <div class="space--sm"></div>
+    <p><a href="javascript:void(0);" class="js-open-modal" data-modal-item="terms">Terms and conditions apply.</a></p>
 
   </div>
 
-  <div class="qatar-section__wave"></div>
 </div>
 
 
